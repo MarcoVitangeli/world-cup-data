@@ -1,15 +1,8 @@
 #!/bin/python3
-import os, sys
+import os
 from dotenv import load_dotenv
 from pathlib import Path
-
-import os, sys
-currentdir = os.path.dirname(os.path.realpath(__file__))
-parentdir = os.path.dirname(currentdir)
-sys.path.append(parentdir)
-
-
-from ..lib import RequestExecutor
+from executor import RequestExecutor
 
 def main() -> None:
 

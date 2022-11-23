@@ -1,5 +1,5 @@
 from typing import Dict
-import requests, sys
+import requests
 
 ARGENTINA_ID: int = 9
 
